@@ -1,15 +1,15 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import CardComponents from '../components/global/CardComponents'
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
+import CardComponents from "../components/global/CardComponents";
 
 const DashBardScreen = () => {
   return (
     <View>
       <CardComponents />
     </View>
-  )
-}
+  );
+};
 
-export default DashBardScreen
+export default DashBardScreen;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});

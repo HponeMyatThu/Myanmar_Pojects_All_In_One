@@ -30,6 +30,7 @@ const Result = ({questionId, answerNo, title}: any) => {
         />
       </View>
       <View>
+        {status === 'loading' ? <Text>Loading...</Text> : null}
         <Text style={styles.txtTitle}>{title}</Text>
       </View>
       <View>
