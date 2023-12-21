@@ -1,15 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import CardComponents from '../components/global/CardComponents'
 
-const DashBardScreen = () => {
+const MinTheinKhaQuestionScreen = () => {
   return (
     <View>
-      <CardComponents />
+      <Text>MinTheinKhaQuestionScreen</Text>
     </View>
   )
 }
 
-export default DashBardScreen
+export default MinTheinKhaQuestionScreen
 
 const styles = StyleSheet.create({})
