@@ -1,9 +1,10 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React, {useEffect, useState} from 'react';
 import Question from '../../components/MinTheinKha/Question';
+import json from '../../api/jsons/Main.json';
 import {useQuery} from 'react-query';
 import {getQuestions} from '../../api/react-query/MinTheinKha';
-import SearchBar from '../../components/MinTheinKha/SearchBar';
+import SearchBar from '../../components/global/SearchBar';
 
 const MinTheinKhaHomeScreen: React.FC = () => {
   const [search, setSearch] = useState<string>('');
@@ -12,6 +13,8 @@ const MinTheinKhaHomeScreen: React.FC = () => {
   const {data, error, status} = useQuery('questions', getQuestions);
 
   useEffect(() => {
+    console.log(status)
+    if(status === 'loading') setDataServer(json.questions)
     if (status === 'success') setDataServer(data.data);
     if (error) console.log('error', error);
   }, [data, error, status]);

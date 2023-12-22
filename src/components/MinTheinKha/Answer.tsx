@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
-// import data from '../api/data.json'
+import json from '../../api/jsons/Main.json'
 import {useAppDispatch} from '../../hooks/useAppDispatch';
 import {answerNo} from '../../features/bayDinSlice';
 import { getNumberLists } from '../../api/react-query/MinTheinKha';
@@ -8,10 +8,11 @@ import {useQuery} from 'react-query';
 
 const Answer = ({navigation}: any) => {
   const dispatch = useAppDispatch();
-  const [dataServer, setDataServer] = useState<[] | null>();
+  const [dataServer, setDataServer] = useState<string[] | null>();
   const {data, error, status} = useQuery('numberLists', getNumberLists);
 
   useEffect(() => {
+    if(status === 'loading') setDataServer(json.numberList)
     if (status === 'success') setDataServer(data.data);
     if (error) console.log('error', error);
   }, []);
