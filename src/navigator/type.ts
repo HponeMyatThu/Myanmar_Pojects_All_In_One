@@ -25,6 +25,8 @@ export type RootStackParametersList = {
 
     //MyanmarProverbs
     MyanmarProverbsHomeScreen: undefined,
+    MyanmarProverbsScreen: undefined,
+    MyanmarProverbsResultScreen: undefined,
 
     //PickAPile
     PickAPileHomeScreen: undefined,

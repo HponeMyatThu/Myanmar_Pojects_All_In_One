@@ -16,6 +16,8 @@ import MinTheinKhaNumberListScreen from '../screens/MinTheinKha/MinTheinKhaNumbe
 import MinTheinKhaAnswerScreen from '../screens/MinTheinKha/MinTheinKhaAnswerScreen';
 import DreamDictonaryResultScreen from '../screens/DreamDictonary/DreamDictonaryResultScreen';
 import MyanmarMonthScreen from '../screens/MyanmarMonths/MyanmarMonthScreen';
+import MyanmarProverbsScreen from '../screens/MyanmarProverbs/MyanmarProverbsScreen';
+import MyanmarProverbsResultScreen from '../screens/MyanmarProverbs/MyanmarProverbsResultScreen';
 
 const Stack = createNativeStackNavigator<RootStackParametersList>();
 
@@ -46,6 +48,8 @@ export const RootNavigator = () => {
 
             {/*MyanmarProverbs*/}
             <Stack.Screen name='MyanmarProverbsHomeScreen' component={MyanmarProverbsHomeScreen} />
+            <Stack.Screen name='MyanmarProverbsScreen' component={MyanmarProverbsScreen} />
+            <Stack.Screen name='MyanmarProverbsResultScreen' component={MyanmarProverbsResultScreen} />
 
             {/*PickAPile*/}
             <Stack.Screen name='PickAPileHomeScreen' component={PickAPileHomeScreen} />

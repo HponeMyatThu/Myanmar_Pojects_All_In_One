@@ -11,7 +11,7 @@ const MyanmarMonthsHomeScreen = () => {
   const { data, status, error } = useQuery("months", getMyanmarMonths);
 
   useEffect(() => {
-    if (status === "loading") setDataServer(json.Tbl_Months as any);
+    if (status === "loading") setDataServer(json.Tbl_Months as Months[]);
     if (status === "success") setDataServer(data.data);
     if (error) console.log(error);
   }, []);
