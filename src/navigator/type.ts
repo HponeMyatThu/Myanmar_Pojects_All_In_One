@@ -17,6 +17,7 @@ export type RootStackParametersList = {
 
     //DreamDictionary
     DreamDictionaryHomeScreen: undefined,
+    DreamDictonaryResultScreen: undefined,
 
     //MyanmarMonths
     MyanmarMonthsHomeScreen: undefined,

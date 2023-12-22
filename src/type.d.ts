@@ -8,3 +8,14 @@ interface Answer {
     answerNo: number;
     answerResult: string;
 }
+
+interface DreamHeader {
+    BlogId: number;
+    BlogTitle: string;
+}
+
+interface Dreamdetail {
+    BlogDetailId: number;
+    BlogId: number;
+    BlogContent: string;
+}

@@ -14,7 +14,6 @@ const Result = ({questionId, answerNo, title}: any) => {
   const result = getResult(questionId, answerNo);
 
   useEffect(() => {
-    console.log(status);
     if (status === 'success') setDataServer(data.data);
     if (error) console.log('error', error);
   }, []);

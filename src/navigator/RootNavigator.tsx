@@ -14,6 +14,7 @@ import ZodiacHomeScreen from '../screens/Zodiac/ZodiacHomeScreen';
 import MinTheinKhaQuestionScreen from '../screens/MinTheinKha/MinTheinKhaQuestionScreen';
 import MinTheinKhaNumberListScreen from '../screens/MinTheinKha/MinTheinKhaNumberListScreen';
 import MinTheinKhaAnswerScreen from '../screens/MinTheinKha/MinTheinKhaAnswerScreen';
+import DreamDictonaryResultScreen from '../screens/DreamDictonary/DreamDictonaryResultScreen';
 
 const Stack = createNativeStackNavigator<RootStackParametersList>();
 
@@ -36,6 +37,7 @@ export const RootNavigator = () => {
 
             {/*DreamDictionary*/}
             <Stack.Screen name='DreamDictionaryHomeScreen' component={DreamDictionaryHomeScreen} />
+            <Stack.Screen name='DreamDictonaryResultScreen' component={DreamDictonaryResultScreen} />
 
             {/*yanmarMonths*/}
             <Stack.Screen name='MyanmarMonthsHomeScreen' component={MyanmarMonthsHomeScreen} />

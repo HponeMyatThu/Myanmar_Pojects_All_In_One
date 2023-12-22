@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 import Question from '../../components/MinTheinKha/Question';
 import {useQuery} from 'react-query';
 import {getQuestions} from '../../api/react-query/MinTheinKha';
-import SearchBar from '../../components/MinTheinKha/SearchBar';
+import SearchBar from '../../components/global/SearchBar';
 
 const MinTheinKhaHomeScreen: React.FC = () => {
   const [search, setSearch] = useState<string>('');
