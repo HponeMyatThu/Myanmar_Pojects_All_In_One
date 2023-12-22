@@ -8,7 +8,6 @@ interface DreamSearch{
 
 const DreamSearch = ({propsData, fetchData}:DreamSearch) => {
   const data = fetchData.filter(item => item.BlogContent.toLowerCase().includes(propsData?.toLocaleLowerCase()))
-  console.log("🚀 ~ file: DreamSearch.tsx:11 ~ DreamSearch ~ data:", data)
 
   return (
     <ScrollView style={{ marginBottom: 10 }}>

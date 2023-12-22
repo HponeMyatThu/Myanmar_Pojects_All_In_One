@@ -1,6 +1,6 @@
 import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import React, {useEffect, useState} from 'react';
-// import data from '../api/data.json';
+import json from '../../api/jsons/Main.json';
 import { getAnswers } from '../../api/react-query/MinTheinKha';
 import {useQuery} from 'react-query';
 
@@ -14,6 +14,7 @@ const Result = ({questionId, answerNo, title}: any) => {
   const result = getResult(questionId, answerNo);
 
   useEffect(() => {
+    if (status === 'loading') setDataServer(json.answers)
     if (status === 'success') setDataServer(data.data);
     if (error) console.log('error', error);
   }, []);

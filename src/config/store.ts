@@ -3,11 +3,13 @@ import { persistStore, persistReducer, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, 
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import bayDinReducer from "../features/bayDinSlice";
 import dreamDictonaryReducer from "../features/dreamDictonarySlice";
+import myanmarMonthsReducer from '../features/myanmarMonthsSlice';
 
 export const store = configureStore ({
     reducer: {
        bayDin: bayDinReducer, 
        dreamDictonary: dreamDictonaryReducer,
+       myanmarMonths: myanmarMonthsReducer,
     }
 })
 

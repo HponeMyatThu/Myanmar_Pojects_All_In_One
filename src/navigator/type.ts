@@ -21,6 +21,7 @@ export type RootStackParametersList = {
 
     //MyanmarMonths
     MyanmarMonthsHomeScreen: undefined,
+    MyanmarMonthScreen: undefined,
 
     //MyanmarProverbs
     MyanmarProverbsHomeScreen: undefined,

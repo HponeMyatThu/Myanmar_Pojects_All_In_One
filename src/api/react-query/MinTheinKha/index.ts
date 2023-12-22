@@ -9,4 +9,5 @@ export const getNumberLists = () => API.get(`/numberList`);
 export const getBlogHeader = () => API.get(`/BlogHeader`);
 export const getBlogDetail = () => API.get(`/BlogDetail`);
 
-
+//MyanmarMonths
+export const getMyanmarMonths = () => API.get(`/Tbl_Months`);

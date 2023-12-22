@@ -25,10 +25,6 @@ const DreamDictionaryHomeScreen = () => {
   >();
   const [search, setSearch] = useState<string>("");
 
-  console.log(
-    "🚀 ~ file: DreamDictionaryHomeScreen.tsx:24 ~ DreamDictionaryHomeScreen ~ search:",
-    search
-  );
   const {
     data: BlogHeaderData,
     status: BlogHeaderStatus,
