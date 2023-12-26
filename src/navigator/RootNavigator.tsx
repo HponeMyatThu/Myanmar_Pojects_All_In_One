@@ -21,6 +21,7 @@ import MyanmarProverbsResultScreen from '../screens/MyanmarProverbs/MyanmarProve
 import PickAPilePictureScreen from '../screens/PickAPile/PickAPilePictureScreen';
 import PickAPileResultScreen from '../screens/PickAPile/PickAPileResultScreen';
 import PickAPileReadMoreScreen from '../screens/PickAPile/PickAPileReadMoreScreen';
+import BirdsDetailScreen from '../screens/Birds/BirdsDetailScreen';
 
 const Stack = createNativeStackNavigator<RootStackParametersList>();
 
@@ -40,6 +41,7 @@ export const RootNavigator = () => {
 
             {/*Birds*/}
             <Stack.Screen name='BirdsHomeScreen' component={BirdsHomeScreen} />
+            <Stack.Screen name='BirdsDetailScreen' component={BirdsDetailScreen} />
 
             {/*DreamDictionary*/}
             <Stack.Screen name='DreamDictionaryHomeScreen' component={DreamDictionaryHomeScreen} />

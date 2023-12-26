@@ -14,6 +14,7 @@ export type RootStackParametersList = {
 
     //Birds
     BirdsHomeScreen: undefined,
+    BirdsDetailScreen: undefined,
 
     //DreamDictionary
     DreamDictionaryHomeScreen: undefined,

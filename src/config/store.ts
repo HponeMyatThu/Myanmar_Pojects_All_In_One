@@ -15,6 +15,7 @@ import dreamDictonaryReducer from "../features/dreamDictonarySlice";
 import myanmarMonthsReducer from "../features/myanmarMonthsSlice";
 import myanmarProverbsReducer from "../features/myanmarProverbsSlice";
 import pickAPileReducer from "../features/pickAPileSlice";
+import birdsReducer from "../features/birdsSlice";
 
 export const store = configureStore({
   reducer: {
@@ -23,6 +24,7 @@ export const store = configureStore({
     myanmarMonths: myanmarMonthsReducer,
     myanmarProverbs: myanmarProverbsReducer,
     pickAPile: pickAPileReducer,
+    birds: birdsReducer,
   },
 });
 
