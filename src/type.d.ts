@@ -29,3 +29,15 @@ interface Months {
   Description: string;
   Detail: string;
 }
+
+interface ProverbsTitle {
+  TitleId: number;
+  TitleName: string;
+}
+
+interface ProverbsBody {
+  TitleId: number;
+  ProverbId: number;
+  ProverbName: string;
+  ProverbDesp: string;
+}

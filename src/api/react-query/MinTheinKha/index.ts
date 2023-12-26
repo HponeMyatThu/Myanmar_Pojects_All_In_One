@@ -11,3 +11,7 @@ export const getBlogDetail = () => API.get(`/BlogDetail`);
 
 //MyanmarMonths
 export const getMyanmarMonths = () => API.get(`/Tbl_Months`);
+
+//MyanmarProverbs 
+export const getMyanmarProverbsTitle = () => API.get(`/Tbl_MMProverbsTitle`);
+export const getMyanmarProverbsBody = () => API.get(`/Tbl_MMProverbs`);
