@@ -55,3 +55,11 @@ interface PickAPile_Answers {
   AnswerDesp: string;
   QuestionId: number;
 }
+
+interface Birds{
+  Id:number;
+  BirdMyanmarName:string;
+  BirdEnglishName:string;
+  Description:string;
+  ImagePath:string; 
+}

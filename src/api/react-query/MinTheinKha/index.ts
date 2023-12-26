@@ -19,3 +19,6 @@ export const getPickAPile_Answers = () => API.get(`/PickAPile_Answers`);
 //MyanmarProverbs 
 export const getMyanmarProverbsTitle = () => API.get(`/Tbl_MMProverbsTitle`);
 export const getMyanmarProverbsBody = () => API.get(`/Tbl_MMProverbs`);
+
+//Birds
+export const getBirds = () => API.get(`/Tbl_Bird`);
