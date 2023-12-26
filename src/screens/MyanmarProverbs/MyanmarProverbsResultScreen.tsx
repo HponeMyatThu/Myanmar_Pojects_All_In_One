@@ -18,23 +18,23 @@ const MyanmarProverbsResultScreen = () => {
 export default MyanmarProverbsResultScreen;
 
 const styles = StyleSheet.create({
-    itemContainer: {
-        marginVertical: 34,
-        marginHorizontal: 5,
-        backgroundColor: "#ffffff",
-        padding: 16,
-        marginBottom: 8,
-        borderRadius: 8,
-        elevation: 2,
-      },
-      itemText: {
-        fontSize: 16,
-        color: "#333333",
-      },
-      itemTitleText: {
-        fontSize: 26,
-        marginVertical:10,
-        textDecorationLine: "underline",
-        color: "#333333",
-      },
+  itemContainer: {
+    marginVertical: 34,
+    marginHorizontal: 5,
+    backgroundColor: "#ffffff",
+    padding: 16,
+    marginBottom: 8,
+    borderRadius: 8,
+    elevation: 2,
+  },
+  itemText: {
+    fontSize: 16,
+    color: "#333333",
+  },
+  itemTitleText: {
+    fontSize: 26,
+    marginVertical: 10,
+    textDecorationLine: "underline",
+    color: "#333333",
+  },
 });

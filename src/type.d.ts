@@ -41,3 +41,17 @@ interface ProverbsBody {
   ProverbName: string;
   ProverbDesp: string;
 }
+
+interface PickAPile_Questions {
+  QuestionId: number;
+  QuestionName: string;
+  QuestionDesp: string;
+}
+
+interface PickAPile_Answers {
+  AnswerId: number;
+  AnswerImageUrl: string;
+  AnswerName: string;
+  AnswerDesp: string;
+  QuestionId: number;
+}

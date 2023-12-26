@@ -14,6 +14,7 @@ import bayDinReducer from "../features/bayDinSlice";
 import dreamDictonaryReducer from "../features/dreamDictonarySlice";
 import myanmarMonthsReducer from "../features/myanmarMonthsSlice";
 import myanmarProverbsReducer from "../features/myanmarProverbsSlice";
+import pickAPileReducer from "../features/pickAPileSlice";
 
 export const store = configureStore({
   reducer: {
@@ -21,6 +22,7 @@ export const store = configureStore({
     dreamDictonary: dreamDictonaryReducer,
     myanmarMonths: myanmarMonthsReducer,
     myanmarProverbs: myanmarProverbsReducer,
+    pickAPile: pickAPileReducer,
   },
 });
 
