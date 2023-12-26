@@ -2,6 +2,7 @@ import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 
 interface myanmarProverbs {
   ProverbId: number;
+  isError: boolean;
   ProverbName: string;
   ProverbDesp: string;
   TitleId: number;
@@ -14,6 +15,7 @@ const initialState: myanmarProverbs = {
   ProverbId: 0,
   ProverbName: "",
   ProverbDesp: "",
+  isError: false
 };
 
 export const myanmarProverbsSlice = createSlice({
@@ -33,15 +35,11 @@ export const myanmarProverbsSlice = createSlice({
       state.ProverbName = action.payload.name;
       state.ProverbDesp = action.payload.des;
     },
-    // deleteData: (state) => {
-    //   state.TitleId= 0,
-    //   state.TitleName= "",
-    //   state.ProverbId= 0,
-    //   state.ProverbName= "",
-    //   state.ProverbDesp= "",
-    // },
+    error: (state) => {
+      state.isError = true;
+    }
   },
 });
 
-export const { data, dataBody } = myanmarProverbsSlice.actions;
+export const { data, dataBody, error } = myanmarProverbsSlice.actions;
 export default myanmarProverbsSlice.reducer;

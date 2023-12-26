@@ -12,7 +12,7 @@ import json from "../../api/jsons/Main.json";
 import { useQuery } from "react-query";
 import MyanmarProverbsResultScreen from "./MyanmarProverbsResultScreen";
 import { useAppDispatch } from "../../hooks/useAppDispatch";
-import { dataBody } from "../../features/myanmarProverbsSlice";
+import { dataBody, error } from "../../features/myanmarProverbsSlice";
 import { useNavigation } from "@react-navigation/native";
 import { RootStackScreenProps } from "../../navigator/type";
 
@@ -47,10 +47,16 @@ const MyanmarProverbsScreen = () => {
   const formattedData = bodyDataServer?.filter((item) =>
     item.ProverbName.toLowerCase().startsWith(TitleName?.toLowerCase())
   );
-  console.log(useAppSelector((state) => state.myanmarProverbs));
+  console.log(useAppSelector((state) => state.myanmarProverbs.isError));
 
   const onhandleCLicked = (id: number, name: string, des: string) => {
+    console.log('log',id === 0  || name === "" || des === "")
     navigator.navigate("MyanmarProverbsResultScreen");
+    if(id === 0  || name === "" || des === ""){
+      console.log('in IF');
+      
+        dispatch(error());
+    }
     dispatch(dataBody({ id, name, des }));
   };
 
@@ -59,9 +65,9 @@ const MyanmarProverbsScreen = () => {
       <ScrollView>
         <View style={{ marginHorizontal: 10, marginVertical: 20 }}>
           {formattedData ? (
-            formattedData?.map((item) => (
+            formattedData?.map((item, index) => (
               <TouchableOpacity
-                key={item.ProverbId}
+                key={index}
                 onPress={() =>
                   onhandleCLicked(
                     item.ProverbId,
