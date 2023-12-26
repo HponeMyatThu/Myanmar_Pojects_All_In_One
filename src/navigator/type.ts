@@ -30,6 +30,9 @@ export type RootStackParametersList = {
 
     //PickAPile
     PickAPileHomeScreen: undefined,
+    PickAPileResultScreen: undefined,
+    PickAPilePictureScreen: undefined,
+    PickAPileReadMoreScreen: undefined,
 
     //Snakes
     SnakesHomeScreen: undefined,

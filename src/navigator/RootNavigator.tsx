@@ -18,6 +18,9 @@ import DreamDictonaryResultScreen from '../screens/DreamDictonary/DreamDictonary
 import MyanmarMonthScreen from '../screens/MyanmarMonths/MyanmarMonthScreen';
 import MyanmarProverbsScreen from '../screens/MyanmarProverbs/MyanmarProverbsScreen';
 import MyanmarProverbsResultScreen from '../screens/MyanmarProverbs/MyanmarProverbsResultScreen';
+import PickAPilePictureScreen from '../screens/PickAPile/PickAPilePictureScreen';
+import PickAPileResultScreen from '../screens/PickAPile/PickAPileResultScreen';
+import PickAPileReadMoreScreen from '../screens/PickAPile/PickAPileReadMoreScreen';
 
 const Stack = createNativeStackNavigator<RootStackParametersList>();
 
@@ -53,6 +56,9 @@ export const RootNavigator = () => {
 
             {/*PickAPile*/}
             <Stack.Screen name='PickAPileHomeScreen' component={PickAPileHomeScreen} />
+            <Stack.Screen name='PickAPilePictureScreen' component={PickAPilePictureScreen} />
+            <Stack.Screen name='PickAPileResultScreen' component={PickAPileResultScreen} />
+            <Stack.Screen name='PickAPileReadMoreScreen' component={PickAPileReadMoreScreen} />
 
             {/*Snakes*/}
             <Stack.Screen name='SnakesHomeScreen' component={SnakesHomeScreen} />
