@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     elevation: 2,
   },
   itemText: {
-    fontSize: 16,
+    fontSize: 12,
     color: "#333333",
   },
   itemTitleText: {

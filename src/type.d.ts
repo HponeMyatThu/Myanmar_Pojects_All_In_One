@@ -19,7 +19,6 @@ interface Dreamdetail {
   BlogId: number;
   BlogContent: string;
 }
-
 interface Months {
   Id: number;
   MonthMm: string;
@@ -62,4 +61,13 @@ interface Birds{
   BirdEnglishName:string;
   Description:string;
   ImagePath:string; 
+}
+
+interface Snakes {
+  Id:number;
+  MMName:string;
+  EngName:string;
+  Detail:string;
+  IsPoison:string;
+  IsDanger:string;
 }
