@@ -14,6 +14,18 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-AwesomeProject-AwesomeProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AwesomeProject-AwesomeProjectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		83168DBC8FB54FBBB9D2099F /* month_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 595F0F6778E2412AA6FBBEFF /* month_1.jpg */; };
+		FC60CCA06F99458CA54B29E6 /* month_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CFF0773B933434995A0F8AB /* month_10.jpg */; };
+		ADD81A65D97F46B89EE79563 /* month_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FA67C305B754A448A2D0875 /* month_11.jpg */; };
+		6BD0995CA47E45ADB1BCA71D /* month_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C932CBAAA7434ABDA64DEF72 /* month_12.jpg */; };
+		3F9C44F4C1804DC38EA604EB /* month_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59A80D27F3EF4DA2AFCFABA8 /* month_2.jpg */; };
+		CA4550D18FF447F49C3080EC /* month_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDC980ACFFC4475CB087033D /* month_3.jpg */; };
+		28233864E80441F2837CABFD /* month_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6124B6124C94A2495DEB26D /* month_4.jpg */; };
+		B5379F48214649F89815DD32 /* month_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E454F8FA117B45B2AA7E3EAD /* month_5.jpg */; };
+		D61E79F439484621958356B7 /* month_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5078AFE700F34F0CA17879B4 /* month_6.jpg */; };
+		C685211F45B04EFC97C3CD22 /* month_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78D0952519804D60A0845E29 /* month_7.jpg */; };
+		8210716A677A4A0F9239EA98 /* month_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07CED6F2EBB6412C818E98B9 /* month_8.jpg */; };
+		F91E2ADF98434D6F8852554A /* month_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0653177AC29436EAEA921EE /* month_9.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AwesomeProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AwesomeProject-AwesomeProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProject-AwesomeProjectTests.release.xcconfig"; path = "Target Support Files/Pods-AwesomeProject-AwesomeProjectTests/Pods-AwesomeProject-AwesomeProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		595F0F6778E2412AA6FBBEFF /* month_1.jpg */ = {isa = PBXFileReference; name = "month_1.jpg"; path = "../src/assets/images/Myanmar_Months/month_1.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0CFF0773B933434995A0F8AB /* month_10.jpg */ = {isa = PBXFileReference; name = "month_10.jpg"; path = "../src/assets/images/Myanmar_Months/month_10.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1FA67C305B754A448A2D0875 /* month_11.jpg */ = {isa = PBXFileReference; name = "month_11.jpg"; path = "../src/assets/images/Myanmar_Months/month_11.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C932CBAAA7434ABDA64DEF72 /* month_12.jpg */ = {isa = PBXFileReference; name = "month_12.jpg"; path = "../src/assets/images/Myanmar_Months/month_12.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		59A80D27F3EF4DA2AFCFABA8 /* month_2.jpg */ = {isa = PBXFileReference; name = "month_2.jpg"; path = "../src/assets/images/Myanmar_Months/month_2.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FDC980ACFFC4475CB087033D /* month_3.jpg */ = {isa = PBXFileReference; name = "month_3.jpg"; path = "../src/assets/images/Myanmar_Months/month_3.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A6124B6124C94A2495DEB26D /* month_4.jpg */ = {isa = PBXFileReference; name = "month_4.jpg"; path = "../src/assets/images/Myanmar_Months/month_4.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E454F8FA117B45B2AA7E3EAD /* month_5.jpg */ = {isa = PBXFileReference; name = "month_5.jpg"; path = "../src/assets/images/Myanmar_Months/month_5.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5078AFE700F34F0CA17879B4 /* month_6.jpg */ = {isa = PBXFileReference; name = "month_6.jpg"; path = "../src/assets/images/Myanmar_Months/month_6.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		78D0952519804D60A0845E29 /* month_7.jpg */ = {isa = PBXFileReference; name = "month_7.jpg"; path = "../src/assets/images/Myanmar_Months/month_7.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		07CED6F2EBB6412C818E98B9 /* month_8.jpg */ = {isa = PBXFileReference; name = "month_8.jpg"; path = "../src/assets/images/Myanmar_Months/month_8.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A0653177AC29436EAEA921EE /* month_9.jpg */ = {isa = PBXFileReference; name = "month_9.jpg"; path = "../src/assets/images/Myanmar_Months/month_9.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +146,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				7D48C239C24F43CF835ED11A /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +172,26 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		7D48C239C24F43CF835ED11A /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				595F0F6778E2412AA6FBBEFF /* month_1.jpg */,
+				0CFF0773B933434995A0F8AB /* month_10.jpg */,
+				1FA67C305B754A448A2D0875 /* month_11.jpg */,
+				C932CBAAA7434ABDA64DEF72 /* month_12.jpg */,
+				59A80D27F3EF4DA2AFCFABA8 /* month_2.jpg */,
+				FDC980ACFFC4475CB087033D /* month_3.jpg */,
+				A6124B6124C94A2495DEB26D /* month_4.jpg */,
+				E454F8FA117B45B2AA7E3EAD /* month_5.jpg */,
+				5078AFE700F34F0CA17879B4 /* month_6.jpg */,
+				78D0952519804D60A0845E29 /* month_7.jpg */,
+				07CED6F2EBB6412C818E98B9 /* month_8.jpg */,
+				A0653177AC29436EAEA921EE /* month_9.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +288,18 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				83168DBC8FB54FBBB9D2099F /* month_1.jpg in Resources */,
+				FC60CCA06F99458CA54B29E6 /* month_10.jpg in Resources */,
+				ADD81A65D97F46B89EE79563 /* month_11.jpg in Resources */,
+				6BD0995CA47E45ADB1BCA71D /* month_12.jpg in Resources */,
+				3F9C44F4C1804DC38EA604EB /* month_2.jpg in Resources */,
+				CA4550D18FF447F49C3080EC /* month_3.jpg in Resources */,
+				28233864E80441F2837CABFD /* month_4.jpg in Resources */,
+				B5379F48214649F89815DD32 /* month_5.jpg in Resources */,
+				D61E79F439484621958356B7 /* month_6.jpg in Resources */,
+				C685211F45B04EFC97C3CD22 /* month_7.jpg in Resources */,
+				8210716A677A4A0F9239EA98 /* month_8.jpg in Resources */,
+				F91E2ADF98434D6F8852554A /* month_9.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

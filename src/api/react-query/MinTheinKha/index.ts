@@ -22,3 +22,6 @@ export const getMyanmarProverbsBody = () => API.get(`/Tbl_MMProverbs`);
 
 //Birds
 export const getBirds = () => API.get(`/Tbl_Bird`);
+
+//Snakes
+export const getSnakes = () => API.get(`/Snakes`);
