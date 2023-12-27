@@ -1,11 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import SnakesList from '../../components/Snakes/SnakesList'
 
 const SnakesHomeScreen = () => {
+  
   return (
-    <View>
-      <Text>SnakesHomeScreen</Text>
-    </View>
+    <>
+      <SnakesList />
+    </>
   )
 }
 
