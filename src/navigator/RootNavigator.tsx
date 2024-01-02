@@ -26,6 +26,7 @@ import PickAPileResultScreen from '../screens/PickAPile/PickAPileResultScreen';
 import PickAPileReadMoreScreen from '../screens/PickAPile/PickAPileReadMoreScreen';
 import BirdsDetailScreen from '../screens/Birds/BirdsDetailScreen';
 import SnakesDetailScreen from '../screens/Snakes/SnakesDetailScreen';
+import ArtGalleryArtScreen from '../screens/ArtGallery/ArtGalleryArtScreen';
 
 const Stack = createNativeStackNavigator<RootStackParametersList>();
 
@@ -42,6 +43,7 @@ export const RootNavigator = () => {
 
             {/*ArtGallery*/}
             <Stack.Screen name='ArtGalleryHomeScreen' component={ArtGalleryHomeScreen} />
+            <Stack.Screen name='ArtGalleryArtScreen' component={ArtGalleryArtScreen} />
 
             {/*Birds*/}
             <Stack.Screen name='BirdsHomeScreen' component={BirdsHomeScreen} />
