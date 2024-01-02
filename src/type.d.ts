@@ -72,3 +72,27 @@ interface Snakes {
   IsDanger:string;
 }
 
+interface Gallery {
+  [x: string]: ReactNode;
+  GalleryId:number;
+  ArtistId:number;
+  ArtId:number;
+}
+
+interface Art {
+  [x: string]: any;
+  ArtId:number;
+  ArtName:string;
+  ArtDescription:string;
+}
+
+interface Artist {
+  ArtistId:number;
+  ArtistName:string;
+  Social: SocialDataTypes[];
+}
+
+interface SocialDataTypes{
+  Name:string;
+  Link:string;
+}

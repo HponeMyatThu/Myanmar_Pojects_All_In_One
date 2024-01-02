@@ -11,6 +11,7 @@ export type RootStackParametersList = {
 
     //ArtGallery
     ArtGalleryHomeScreen: undefined,
+    ArtGalleryArtScreen: undefined,
 
     //Birds
     BirdsHomeScreen: undefined,

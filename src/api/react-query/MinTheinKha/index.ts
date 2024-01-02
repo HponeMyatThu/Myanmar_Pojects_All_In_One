@@ -25,3 +25,9 @@ export const getBirds = () => API.get(`/Tbl_Bird`);
 
 //Snakes
 export const getSnakes = () => API.get(`/Snakes`);
+
+//ArtGallery    
+export const getArtists = () => API.get(`/Tbl_Artist`);
+export const getArts = () => API.get(`/Tbl_Art`);
+export const getGalleries = () => API.get(`/Tbl_Gallery`);
+
