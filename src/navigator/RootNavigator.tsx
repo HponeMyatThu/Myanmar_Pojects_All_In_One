@@ -1,3 +1,6 @@
+
+
+
 import {createNativeStackNavigator} from '@react-navigation/native-stack'
 import {RootStackParametersList} from './type'
 
@@ -22,6 +25,7 @@ import PickAPilePictureScreen from '../screens/PickAPile/PickAPilePictureScreen'
 import PickAPileResultScreen from '../screens/PickAPile/PickAPileResultScreen';
 import PickAPileReadMoreScreen from '../screens/PickAPile/PickAPileReadMoreScreen';
 import BirdsDetailScreen from '../screens/Birds/BirdsDetailScreen';
+import SnakesDetailScreen from '../screens/Snakes/SnakesDetailScreen';
 
 const Stack = createNativeStackNavigator<RootStackParametersList>();
 
@@ -64,6 +68,7 @@ export const RootNavigator = () => {
 
             {/*Snakes*/}
             <Stack.Screen name='SnakesHomeScreen' component={SnakesHomeScreen} />
+            <Stack.Screen name='SnakesDetailScreen' component={SnakesDetailScreen} />
 
             {/*Zodiac*/}
             <Stack.Screen name='ZodiacHomeScreen' component={ZodiacHomeScreen} />

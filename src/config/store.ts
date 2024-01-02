@@ -16,6 +16,7 @@ import myanmarMonthsReducer from "../features/myanmarMonthsSlice";
 import myanmarProverbsReducer from "../features/myanmarProverbsSlice";
 import pickAPileReducer from "../features/pickAPileSlice";
 import birdsReducer from "../features/birdsSlice";
+import snakesReducer from "../features/snakesSlice";
 
 export const store = configureStore({
   reducer: {
@@ -25,6 +26,7 @@ export const store = configureStore({
     myanmarProverbs: myanmarProverbsReducer,
     pickAPile: pickAPileReducer,
     birds: birdsReducer,
+    snake: snakesReducer,
   },
 });
 

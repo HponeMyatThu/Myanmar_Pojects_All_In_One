@@ -37,6 +37,7 @@ export type RootStackParametersList = {
 
     //Snakes
     SnakesHomeScreen: undefined,
+    SnakesDetailScreen: undefined,
     
     //Zodiac
     ZodiacHomeScreen: undefined,
