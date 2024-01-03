@@ -42,6 +42,7 @@ export type RootStackParametersList = {
     
     //Zodiac
     ZodiacHomeScreen: undefined,
+    ZodiacDetailScreen: undefined,
 }
 
 export type RootStackScreenProps<T extends keyof RootStackParametersList> =
