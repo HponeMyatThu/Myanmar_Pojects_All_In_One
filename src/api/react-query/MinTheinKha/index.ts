@@ -31,3 +31,5 @@ export const getArtists = () => API.get(`/Tbl_Artist`);
 export const getArts = () => API.get(`/Tbl_Art`);
 export const getGalleries = () => API.get(`/Tbl_Gallery`);
 
+//Zodiac
+export const getZodiac = () => API.get(`/ZodiacSignsDetail`);

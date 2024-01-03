@@ -27,6 +27,7 @@ import PickAPileReadMoreScreen from '../screens/PickAPile/PickAPileReadMoreScree
 import BirdsDetailScreen from '../screens/Birds/BirdsDetailScreen';
 import SnakesDetailScreen from '../screens/Snakes/SnakesDetailScreen';
 import ArtGalleryArtScreen from '../screens/ArtGallery/ArtGalleryArtScreen';
+import ZodiacDetailScreen from '../screens/Zodiac/ZodiacDetailScreen';
 
 const Stack = createNativeStackNavigator<RootStackParametersList>();
 
@@ -74,6 +75,7 @@ export const RootNavigator = () => {
 
             {/*Zodiac*/}
             <Stack.Screen name='ZodiacHomeScreen' component={ZodiacHomeScreen} />
+            <Stack.Screen name='ZodiacDetailScreen' component={ZodiacDetailScreen} />
 
         </Stack.Navigator>
     )

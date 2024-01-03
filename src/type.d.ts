@@ -96,3 +96,26 @@ interface SocialDataTypes{
   Name:string;
   Link:string;
 }
+
+interface ZodiacSignsDetail {
+  Id:number;
+  Name:string;
+  MyanmarMonth:string;
+  ZodiacSignImageUrl:string;
+  ZodiacSign2ImageUrl:string;
+  Dates:string;
+  Elements:string;
+  ElementImageUrl:string;
+  LifePurpose:string;
+  Loyal:string;
+  RepresentativeFlower:string;
+  Angry:string;
+  Character:string;
+  PrettyFeatures:string;
+  Traits:TraitsDataTypes[];
+}
+
+interface TraitsDataTypes{
+  name:string;
+  percentage:number;
+}
