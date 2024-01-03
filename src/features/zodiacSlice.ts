@@ -62,3 +62,4 @@ export const zodiaceSlice = createSlice({
 
 export const { data } = zodiaceSlice.actions;
 export default zodiaceSlice.reducer;
+
