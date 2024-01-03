@@ -1,0 +1,38 @@
+import API from "./interceptor";
+
+//Min Thein Kha
+export const getQuestions = () => API.get(`/questions`);
+export const getAnswers = () => API.get(`/answers`);
+export const getNumberLists = () => API.get(`/numberList`);
+
+//Dream Dictonary
+export const getBlogHeader = () => API.get(`/BlogHeader`);
+export const getBlogDetail = () => API.get(`/BlogDetail`);
+
+//MyanmarMonths
+export const getMyanmarMonths = () => API.get(`/Tbl_Months`);
+
+//PickAPile
+export const getPickAPile_Questions = () => API.get(`/PickAPile_Questions`);
+export const getPickAPile_Answers = () => API.get(`/PickAPile_Answers`);
+
+//MyanmarProverbs 
+export const getMyanmarProverbsTitle = () => API.get(`/Tbl_MMProverbsTitle`);
+export const getMyanmarProverbsBody = () => API.get(`/Tbl_MMProverbs`);
+
+//Birds
+export const getBirds = () => API.get(`/Tbl_Bird`);
+
+//Snakes
+export const getSnakes = () => API.get(`/Snakes`);
+
+<<<<<<< HEAD
+//ArtGallery    
+export const getArtists = () => API.get(`/Tbl_Artist`);
+export const getArts = () => API.get(`/Tbl_Art`);
+export const getGalleries = () => API.get(`/Tbl_Gallery`);
+
+=======
+//Zodiac
+export const getZodiac = () => API.get(`/ZodiacSignsDetail`);
+>>>>>>> ceb8f0d ([ build ] with redux)

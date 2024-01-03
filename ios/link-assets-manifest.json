@@ -1,0 +1,53 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/images/Myanmar_Months/month_1.jpg",
+      "sha1": "12846603b7c2856be0337da6b56ebb4e03110940"
+    },
+    {
+      "path": "src/assets/images/Myanmar_Months/month_10.jpg",
+      "sha1": "43ef4f3eaefbece9445d99521698e811c391a2d4"
+    },
+    {
+      "path": "src/assets/images/Myanmar_Months/month_11.jpg",
+      "sha1": "d83d7273d40f9769928bfa3e7db80b03bb7e3f8f"
+    },
+    {
+      "path": "src/assets/images/Myanmar_Months/month_12.jpg",
+      "sha1": "6b705df8799817dc37145e7423c8132dba79b701"
+    },
+    {
+      "path": "src/assets/images/Myanmar_Months/month_2.jpg",
+      "sha1": "922d134e28691f31bd622e015c92cce43e0a23a2"
+    },
+    {
+      "path": "src/assets/images/Myanmar_Months/month_3.jpg",
+      "sha1": "c7b3732a7fddd749a92f18efcaa7535edaab7892"
+    },
+    {
+      "path": "src/assets/images/Myanmar_Months/month_4.jpg",
+      "sha1": "43c77bf050031e5a5afc5a2348a666ab1a586240"
+    },
+    {
+      "path": "src/assets/images/Myanmar_Months/month_5.jpg",
+      "sha1": "7df5a0badb9ab9a00c2dfd76a72a0de07b28ee60"
+    },
+    {
+      "path": "src/assets/images/Myanmar_Months/month_6.jpg",
+      "sha1": "31969274edd91af00658efa39e27d18e76af7f03"
+    },
+    {
+      "path": "src/assets/images/Myanmar_Months/month_7.jpg",
+      "sha1": "8f59bb7bab2be32db34281960a3f539aa6f0c9e7"
+    },
+    {
+      "path": "src/assets/images/Myanmar_Months/month_8.jpg",
+      "sha1": "6b8fbb10eb104ca6dd206d4d44a8c2c036d020c1"
+    },
+    {
+      "path": "src/assets/images/Myanmar_Months/month_9.jpg",
+      "sha1": "3c5963597dc1cb242f863b820833d200b3221fa7"
+    }
+  ]
+}
