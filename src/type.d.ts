@@ -96,6 +96,7 @@ interface SocialDataTypes{
   Name:string;
   Link:string;
 }
+
 interface ZodiacSignsDetail {
   Id:number;
   Name:string;

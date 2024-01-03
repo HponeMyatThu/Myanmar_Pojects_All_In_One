@@ -27,3 +27,4 @@ const ZodiacHomeScreen = () => {
 export default ZodiacHomeScreen;
 
 const styles = StyleSheet.create({});
+

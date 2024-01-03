@@ -1,21 +1,54 @@
-import { ScrollView, StyleSheet, Text, View } from "react-native";
+import {Image, ScrollView, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { useAppSelector } from "../../hooks/useAppSelector";
 
 const ZodiacDetailScreen = () => {
   const globalData = useAppSelector((state) => state.zodiac);
 
+  let imagePath:any = null;
+
   return (
     <>
       <ScrollView>
         <View style={styles.itemContainer}>
+          <Text style={{display:"none"}}>
+            {
+              globalData.Name === "Aries"
+              ? imagePath = (require("../../assets/images/Zodiac/zodiac-signs-2/aries.jpg"))
+              : globalData.Name === "Aquarius"
+              ? imagePath = (require("../../assets/images/Zodiac/zodiac-signs-2/aquarius.jpg")) 
+              : globalData.Name === "Cancer"
+              ? imagePath = (require("../../assets/images/Zodiac/zodiac-signs-2/cancer.jpg")) 
+              : globalData.Name === "Capricorn"
+              ? imagePath = (require("../../assets/images/Zodiac/zodiac-signs-2/capricorn.jpg")) 
+              : globalData.Name === "Gemini"
+              ? imagePath = (require("../../assets/images/Zodiac/zodiac-signs-2/gemini.jpg")) 
+              : globalData.Name === "Leo"
+              ? imagePath = (require("../../assets/images/Zodiac/zodiac-signs-2/leo.jpg")) 
+              : globalData.Name === "Libra"
+              ? imagePath = (require("../../assets/images/Zodiac/zodiac-signs-2/libra.jpg")) 
+              : globalData.Name === "Pisces"
+              ? imagePath = (require("../../assets/images/Zodiac/zodiac-signs-2/pisces.jpg")) 
+              : globalData.Name === "Saggittarius"
+              ? imagePath = (require("../../assets/images/Zodiac/zodiac-signs-2/saggittarius.jpg")) 
+              : globalData.Name === "Scorpio"
+              ? imagePath = (require("../../assets/images/Zodiac/zodiac-signs-2/scorpio.jpg")) 
+              : globalData.Name === "Taurus"
+              ? imagePath = (require("../../assets/images/Zodiac/zodiac-signs-2/taurus.jpg")) 
+              : globalData.Name === "Virgo"
+              ? imagePath = (require("../../assets/images/Zodiac/zodiac-signs-2/virgo.jpg")) 
+              :null
+            }
+          </Text>
+
           <Text style={styles.itemTitleText}>
             {globalData.Name}({globalData.MyanmarMonth}) {globalData.Dates}
           </Text>
 
-          <Text
+          <Image
             style={{ width: "100%", height: 400, backgroundColor: "black" }}
-          ></Text>
+            source={imagePath}
+          ></Image>
 
           <Text style={styles.itemText}>Life Propose</Text>
           <Text>{globalData.LifePurpose}</Text>
@@ -64,3 +97,4 @@ const styles = StyleSheet.create({
     color: "#333333",
   },
 });
+

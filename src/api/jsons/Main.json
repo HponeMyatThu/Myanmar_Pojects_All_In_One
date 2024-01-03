@@ -12380,7 +12380,6 @@
       "IsDanger": "Yes"
     }
   ],
-<<<<<<< HEAD
   "Tbl_Gallery": [
     {
       "GalleryId": 1,
@@ -12637,7 +12636,108 @@
         {
           "Name": "instagram",
           "Link": ""
-=======
+        }
+      ]
+    },
+    {
+      "ArtistId": 2,
+      "ArtistName": "Yell Zaw Hlaing",
+      "Social": [
+        {
+          "Name": "facebook",
+          "Link": "https://www.facebook.com/profile.php?id=100082413631418"
+        },
+        {
+          "Name": "instagram",
+          "Link": ""
+        }
+      ]
+    },
+    {
+      "ArtistId": 3,
+      "ArtistName": "Yoon Na Di",
+      "Social": [
+        {
+          "Name": "facebook",
+          "Link": "https://www.facebook.com/profile.php?id=100072272035447"
+        },
+        {
+          "Name": "instagram",
+          "Link": ""
+        }
+      ]
+    },
+    {
+      "ArtistId": 4,
+      "ArtistName": "Zenkei",
+      "Social": [
+        {
+          "Name": "facebook",
+          "Link": "https://www.facebook.com/profile.php?id=100055981076790"
+        },
+        {
+          "Name": "instagram",
+          "Link": ""
+        }
+      ]
+    },
+    {
+      "ArtistId": 5,
+      "ArtistName": "Thiri",
+      "Social": [
+        {
+          "Name": "facebook",
+          "Link": "https://www.facebook.com/profile.php?id=100070586672129"
+        },
+        {
+          "Name": "instagram",
+          "Link": ""
+        }
+      ]
+    },
+    {
+      "ArtistId": 6,
+      "ArtistName": "Thinthazin",
+      "Social": [
+        {
+          "Name": "facebook",
+          "Link": "https://www.facebook.com/thin.thazin.39904"
+        },
+        {
+          "Name": "instagram",
+          "Link": ""
+        }
+      ]
+    },
+    {
+      "ArtistId": 7,
+      "ArtistName": "Theè Oo",
+      "Social": [
+        {
+          "Name": "facebook",
+          "Link": "https://www.facebook.com/theeoosartvenue"
+        },
+        {
+          "Name": "instagram",
+          "Link": "https://www.instagram.com/theeoothazin"
+        }
+      ]
+    },
+    {
+      "ArtistId": 8,
+      "ArtistName": "Edgar",
+      "Social": [
+        {
+          "Name": "facebook",
+          "Link": "https://www.facebook.com/profile.php?id=100044790408299"
+        },
+        {
+          "Name": "instagram",
+          "Link": ""
+        }
+      ]
+    }
+  ],
   "ZodiacSignsDetail": [
     {
       "Id": 1,
@@ -12674,23 +12774,10 @@
         {
           "name": "Passionate",
           "percentage": 75
->>>>>>> ceb8f0d ([ build ] with redux)
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "ArtistId": 2,
-      "ArtistName": "Yell Zaw Hlaing",
-      "Social": [
-        {
-          "Name": "facebook",
-          "Link": "https://www.facebook.com/profile.php?id=100082413631418"
-        },
-        {
-          "Name": "instagram",
-          "Link": ""
-=======
       "Id": 2,
       "Name": "Taurus",
       "MyanmarMonth": "ကဆုန်",
@@ -12725,23 +12812,10 @@
         {
           "name": "Sensual",
           "percentage": 65
->>>>>>> ceb8f0d ([ build ] with redux)
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "ArtistId": 3,
-      "ArtistName": "Yoon Na Di",
-      "Social": [
-        {
-          "Name": "facebook",
-          "Link": "https://www.facebook.com/profile.php?id=100072272035447"
-        },
-        {
-          "Name": "instagram",
-          "Link": ""
-=======
       "Id": 3,
       "Name": "Gemini",
       "MyanmarMonth": "နယုန်",
@@ -12776,23 +12850,10 @@
         {
           "name": "Social",
           "percentage": 90
->>>>>>> ceb8f0d ([ build ] with redux)
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "ArtistId": 4,
-      "ArtistName": "Zenkei",
-      "Social": [
-        {
-          "Name": "facebook",
-          "Link": "https://www.facebook.com/profile.php?id=100055981076790"
-        },
-        {
-          "Name": "instagram",
-          "Link": ""
-=======
       "Id": 4,
       "Name": "Cancer",
       "MyanmarMonth": "ဝါဆို",
@@ -12827,23 +12888,10 @@
         {
           "name": "Protective",
           "percentage": 90
->>>>>>> ceb8f0d ([ build ] with redux)
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "ArtistId": 5,
-      "ArtistName": "Thiri",
-      "Social": [
-        {
-          "Name": "facebook",
-          "Link": "https://www.facebook.com/profile.php?id=100070586672129"
-        },
-        {
-          "Name": "instagram",
-          "Link": ""
-=======
       "Id": 5,
       "Name": "Leo",
       "MyanmarMonth": "ဝါခေါင်",
@@ -12878,23 +12926,10 @@
         {
           "name": "Dominant",
           "percentage": 70
->>>>>>> ceb8f0d ([ build ] with redux)
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "ArtistId": 6,
-      "ArtistName": "Thinthazin",
-      "Social": [
-        {
-          "Name": "facebook",
-          "Link": "https://www.facebook.com/thin.thazin.39904"
-        },
-        {
-          "Name": "instagram",
-          "Link": ""
-=======
       "Id": 6,
       "Name": "Virgo",
       "MyanmarMonth": "တော်သလင်း",
@@ -12929,23 +12964,10 @@
         {
           "name": "Reliable",
           "percentage": 75
->>>>>>> ceb8f0d ([ build ] with redux)
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "ArtistId": 7,
-      "ArtistName": "Theè Oo",
-      "Social": [
-        {
-          "Name": "facebook",
-          "Link": "https://www.facebook.com/theeoosartvenue"
-        },
-        {
-          "Name": "instagram",
-          "Link": "https://www.instagram.com/theeoothazin"
-=======
       "Id": 7,
       "Name": "Libra",
       "MyanmarMonth": "သီတင်းကျွတ်",
@@ -12980,23 +13002,10 @@
         {
           "name": "Charming",
           "percentage": 85
->>>>>>> ceb8f0d ([ build ] with redux)
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "ArtistId": 8,
-      "ArtistName": "Edgar",
-      "Social": [
-        {
-          "Name": "facebook",
-          "Link": "https://www.facebook.com/profile.php?id=100044790408299"
-        },
-        {
-          "Name": "instagram",
-          "Link": ""
-=======
       "Id": 8,
       "Name": "Scorpio",
       "MyanmarMonth": "တန်ဆောင်မုန်း",
@@ -13183,7 +13192,6 @@
         {
           "name": "Sensitive",
           "percentage": 70
->>>>>>> ceb8f0d ([ build ] with redux)
         }
       ]
     }
