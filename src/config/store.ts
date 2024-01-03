@@ -18,6 +18,7 @@ import pickAPileReducer from "../features/pickAPileSlice";
 import birdsReducer from "../features/birdsSlice";
 import snakesReducer from "../features/snakesSlice";
 import artGalleryReducer from "../features/artGallery";
+import zodiaceReducer from "../features/zodiacSlice";
 
 export const store = configureStore({
   reducer: {
@@ -29,6 +30,7 @@ export const store = configureStore({
     birds: birdsReducer,
     snake: snakesReducer,
     artGallery: artGalleryReducer,
+    zodiac: zodiaceReducer,
   },
 });
 
