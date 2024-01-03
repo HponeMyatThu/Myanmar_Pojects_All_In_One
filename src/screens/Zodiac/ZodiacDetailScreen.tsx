@@ -1,4 +1,4 @@
-import { Image, ScrollView, StyleSheet, Text, View } from "react-native";
+import {Image, ScrollView, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { useAppSelector } from "../../hooks/useAppSelector";
 
@@ -6,6 +6,7 @@ const ZodiacDetailScreen = () => {
   const globalData = useAppSelector((state) => state.zodiac);
 
   let imagePath:any = null;
+
   return (
     <>
       <ScrollView>
@@ -39,6 +40,7 @@ const ZodiacDetailScreen = () => {
               :null
             }
           </Text>
+
           <Text style={styles.itemTitleText}>
             {globalData.Name}({globalData.MyanmarMonth}) {globalData.Dates}
           </Text>
@@ -95,3 +97,4 @@ const styles = StyleSheet.create({
     color: "#333333",
   },
 });
+

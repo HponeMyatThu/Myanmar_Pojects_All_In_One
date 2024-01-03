@@ -33,3 +33,4 @@ export const getGalleries = () => API.get(`/Tbl_Gallery`);
 
 //Zodiac
 export const getZodiac = () => API.get(`/ZodiacSignsDetail`);
+
